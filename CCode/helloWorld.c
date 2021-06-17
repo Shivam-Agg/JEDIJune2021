@@ -4,14 +4,13 @@
 
 #include<stdio.h>
 
-void helloWorld();
+void greeting(char name[]);
 
 int main(){
-   helloWorld();
+	char name[] = "Alia Bhat";
+	greeting(name);
 }
 
-void helloWorld(){
-	 printf("Hello world");
-        printf("Awesome world!!");
-
+void greeting(char name[]){
+	printf("Hey, Where was you?..%s", name);
 }

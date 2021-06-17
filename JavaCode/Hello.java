@@ -7,4 +7,8 @@ class Hello {
     void hello(){
     	System.out.println("Hello");
     }
+
+    public void greeting(String name){
+    	System.out.println("Hey, How are you doing?" + name);
+    }
 }
